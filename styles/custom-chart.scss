@@ -1,0 +1,124 @@
+.dark-chart {
+    @apply fill-black;
+
+    .chart-area {
+        @apply fill-black
+    }
+
+    .axis-text,
+    .plot-text {
+        @apply fill-white text-white;
+    }
+
+
+
+
+    .axis-line,
+    .line-chart.plot-marker,
+    .axis-marker {
+        @apply stroke-white;
+    }
+
+    .plot-tooltip {
+        @apply fill-slate-800;
+    }
+
+    .legend-text {
+        @apply fill-white text-white;
+    }
+
+    .chart-polyline {
+        @apply stroke-white;
+    }
+}
+
+.custom-bar-chart {
+    @apply bg-gradient-to-r from-[#f2f2f2] to-[#d3c8ef] bg-opacity-100;
+
+
+
+
+    .chart-area {
+        @apply fill-transparent
+    }
+
+    .axis-text,
+    .legend-text {
+        @apply fill-[#1e012b] text-[#1e012b];
+
+    }
+
+    .axis-text.x-axis {
+        @apply translate-y-[-0.12rem] italic
+    }
+
+    .axis-line {
+        @apply stroke-pink-800;
+    }
+
+    .axis-marker {
+        @apply stroke-red-600;
+    }
+
+    .plot-tooltip {
+        @apply fill-yellow-50;
+    }
+
+
+    .bar-column.bar-column-1,
+    .plot-marker.plot-marker-1,
+    .chart-legend.legend-box-1 {
+        @apply fill-[#603F8B]
+    }
+
+
+    .bar-column.bar-column-2,
+    .plot-marker.plot-marker-2,
+    .chart-legend.legend-box-2 {
+        @apply fill-[#FAD02C]
+    }
+
+
+    .bar-column.bar-column-3,
+    .plot-marker.plot-marker-3,
+    .chart-legend.legend-box-3 {
+        @apply fill-[#FF8300]
+    }
+
+
+    .bar-column.bar-column-4,
+    .plot-marker.plot-marker-4,
+    .chart-legend.legend-box-4 {
+        @apply fill-[#FD49A0]
+    }
+
+
+    &.dark-chart {
+        @apply bg-gradient-to-r from-[#180f37] to-black bg-opacity-100;
+
+        .axis-text {
+            @apply fill-yellow-200 text-yellow-200;
+
+        }
+
+        .axis-line {
+            @apply stroke-pink-300;
+        }
+
+        .axis-marker {
+            @apply stroke-yellow-600;
+        }
+
+        .plot-tooltip {
+            @apply fill-[#331d01];
+        }
+
+        .legend-text {
+            @apply fill-yellow-200 text-yellow-200;
+        }
+
+        .plot-text {
+            @apply fill-white text-white;
+        }
+    }
+}

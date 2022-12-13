@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+@import 'react-graphs-svg/dist/styles/main.css';
+@import './custom-chart.scss';
+
+
+@tailwind utilities;

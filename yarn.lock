@@ -1206,6 +1206,11 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-graphs-svg@0.1.0-alpha-4:
+  version "0.1.0-alpha-4"
+  resolved "https://registry.yarnpkg.com/react-graphs-svg/-/react-graphs-svg-0.1.0-alpha-4.tgz#211901f55c71841a9546651b39274392168d4e1e"
+  integrity sha512-28GA+90/rmby975KEKMwnNYJvX12dCxBAzj9NYryspXImoZD9B59RFDJQIGsfH/yGjxJ2zbDjsh7W8IbDcQQAA==
+
 react@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
